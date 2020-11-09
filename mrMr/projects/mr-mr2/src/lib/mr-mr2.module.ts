@@ -1,12 +1,23 @@
-import { NgModule } from '@angular/core';
-import { MrMr2Component } from './mr-mr2.component';
-
-
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { SpinnerComponent } from './components/spinner/spinner.component';
+import { SortPipe } from './pipes/sort.pipe';
+import { FilterPipe } from './pipes/filter.pipe';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
-  declarations: [MrMr2Component],
-  imports: [
+  declarations: [
+    SpinnerComponent,
+    SortPipe,
+    FilterPipe
   ],
-  exports: [MrMr2Component]
+  imports: [
+    CommonModule
+  ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
+  exports: [
+    SpinnerComponent,
+    SortPipe,
+    FilterPipe
+  ]
 })
 export class MrMr2Module { }
