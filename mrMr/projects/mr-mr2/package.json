@@ -1,6 +1,6 @@
 {
   "name": "mr-mr2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "peerDependencies": {
     "@angular/common": "^10.1.6",
