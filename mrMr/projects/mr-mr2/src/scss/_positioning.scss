@@ -1,0 +1,289 @@
+/* Positioning */
+.mrAbs {
+  position : absolute;
+}
+.mrFix {
+  position : fixed;
+}
+.mrLeft {
+  float: left;
+}
+.mrMar1 {
+  margin: 1vh;
+}
+.mrMar2 {
+  margin: 2vh;
+}
+.mrMar3 {
+  margin: 3vh;
+}
+.mrMar4 {
+  margin: 4vh;
+}
+.mrMar5 {
+  margin: 5px;
+}
+.mrMar10 {
+  margin: 10px;
+}
+.mrMar20 {
+  margin: 20px;
+}
+.mrMar30 {
+  margin: 30px;
+}
+.mrMart1 {
+  margin-top: 1vh;
+}
+.mrMart2 {
+  margin-top: 2vh;
+}
+.mrMart3 {
+  margin-top: 3vh;
+}
+.mrMart4 {
+  margin-top: 4vh;
+}
+.mrMart5 {
+  margin-top: 5px;
+}
+.mrMart10 {
+  margin-top: 10px;
+}
+.mrMart20 {
+  margin-top: 20px;
+}
+.mrMart30 {
+  margin-top: 30px;
+}
+.mrMarr1 {
+  margin-right: 1vh;
+}
+.mrMarr2 {
+  margin-right: 2vh;
+}
+.mrMarr3 {
+  margin-right: 3vh;
+}
+.mrMarr4 {
+  margin-right: 4vh;
+}
+.mrMarr5 {
+  margin-right: 5px;
+}
+.mrMarr10 {
+  margin-right: 10px;
+}
+.mrMarr20 {
+  margin-right: 20px;
+}
+.mrMarr30 {
+  margin-right: 30px;
+}
+.mrMarb1 {
+  margin-bottom: 1vh;
+}
+.mrMarb2 {
+  margin-bottom: 2vh;
+}
+.mrMarb3 {
+  margin-bottom: 3vh;
+}
+.mrMarb4 {
+  margin-bottom: 4vh;
+}
+.mrMarb5 {
+  margin-bottom: 5px;
+}
+.mrMarb10 {
+  margin-bottom: 10px;
+}
+.mrMarb20 {
+  margin-bottom: 20px;
+}
+.mrMarb30 {
+  margin-bottom: 30px;
+}
+.mrMarl1 {
+  margin-left: 1vh;
+}
+.mrMarl2 {
+  margin-left: 2vh;
+}
+.mrMarl3 {
+  margin-left: 3vh;
+}
+.mrMarl4 {
+  margin-left: 4vh;
+}
+.mrMarl5 {
+  margin-left: 5px;
+}
+.mrMarl10 {
+  margin-left: 10px;
+}
+.mrMarl20 {
+  margin-left: 20px;
+}
+.mrMarl30 {
+  margin-left: 30px;
+}
+.mrPad1 {
+  padding: 1vh;
+}
+.mrPad2 {
+  padding: 2vh;
+}
+.mrPad3 {
+  padding: 3vh;
+}
+.mrPad4 {
+  padding: 4vh;
+}
+.mrPad5 {
+  padding: 5px;
+}
+.mrPad10 {
+  padding: 10px;
+}
+.mrPad20 {
+  padding: 20px;
+}
+.mrPad30 {
+  padding: 30px;
+}
+.mrPadt1 {
+  padding-top: 1vh;
+}
+.mrPadt2 {
+  padding-top: 2vh;
+}
+.mrPadt3 {
+  padding-top: 3vh;
+}
+.mrPadt4 {
+  padding-top: 4vh;
+}
+.mrPadt5 {
+  padding-top: 5px;
+}
+.mrPadt10 {
+  padding-top: 10px;
+}
+.mrPadt20 {
+  padding-top: 20px;
+}
+.mrPadt30 {
+  padding-top: 30px;
+}
+.mrPadr1 {
+  padding-right: 1vh;
+}
+.mrPadr2 {
+  padding-right: 2vh;
+}
+.mrPadr3 {
+  padding-right: 3vh;
+}
+.mrPadr4 {
+  padding-right: 4vh;
+}
+.mrPadr5 {
+  padding-right: 5px;
+}
+.mrPadr10 {
+  padding-right: 10px;
+}
+.mrPadr20 {
+  padding-right: 20px;
+}
+.mrPadr30 {
+  padding-right: 30px;
+}
+.mrPadb1 {
+  padding-bottom: 1vh;
+}
+.mrPadb2 {
+  padding-bottom: 2vh;
+}
+.mrPadb3 {
+  padding-bottom: 3vh;
+}
+.mrPadb4 {
+  padding-bottom: 4vh;
+}
+.mrPadb5 {
+  padding-bottom: 5px;
+}
+.mrPadb10 {
+  padding-bottom: 10px;
+}
+.mrPadb20 {
+  padding-bottom: 20px;
+}
+.mrPadb30 {
+  padding-bottom: 30px;
+}
+.mrPadl1 {
+  padding-left: 1vh;
+}
+.mrPadl2 {
+  padding-left: 2vh;
+}
+.mrPadl3 {
+  padding-left: 3vh;
+}
+.mrPadl4 {
+  padding-left: 4vh;
+}
+.mrPadl5 {
+  padding-left: 5px;
+}
+.mrPadl10 {
+  padding-left: 10px;
+}
+.mrPadl20 {
+  padding-left: 20px;
+}
+.mrPadl30 {
+  padding-left: 30px;
+}
+.mrRel {
+  position: relative;
+}
+.mrRight {
+  float: right;
+}
+.mrStat {
+  position: static;
+}
+.mrTxtC {
+  text-align: center;
+}
+.mrTxtL {
+  text-align: left;
+}
+.mrTxtR {
+  text-align: right;
+}
+.mr20PW {
+  width: 20%;
+}
+.mr25PW {
+  width: 25%;
+}
+.mr50PW {
+  width: 50%;
+}
+.mr100PW {
+  width: 100%;
+}
+.mr100PH {
+  height: 100%;
+}
+.mrZ1000 {
+  z-index: 1000;
+}
+.mrOfsXScrl {
+  overflow-x: auto;
+}
