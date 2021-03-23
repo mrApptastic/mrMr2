@@ -8,6 +8,18 @@
       "options": [
         "parameters",
         "statements"
+      ],
+      "directive-selector": [
+        true,
+        "attribute",
+        "mr",
+        "camelCase"
+      ],
+      "component-selector": [
+        true,
+        "element",
+        "mr",
+        "kebab-case"
       ]
     },
     "array-type": false,

@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+// import { captainCanvas } from "../../../assets/captainCanvas.js";
+// import { mrToolBox } from "../../../assets/mrToolBox.js";
 declare function captainCanvas(canvas, tools, settings): void;
 declare function mrToolBox(id, settings): void;
 
