@@ -6,10 +6,14 @@ import { CommonModule } from '@angular/common';
 import { AgePipe } from './pipes/age.pipe';
 import { BmiPipe } from './pipes/bmi.pipe';
 import { BmrPipe } from './pipes/bmr.pipe';
+import { RectAngularComponent } from './components/rect-angular/rect-angular.component';
+import { CaptainCanvasComponent } from './components/captain-canvas/captain-canvas.component';
 
 @NgModule({
   declarations: [
     SpinnerComponent,
+    RectAngularComponent,
+    CaptainCanvasComponent,
     SortPipe,
     FilterPipe,
     AgePipe,
@@ -22,8 +26,13 @@ import { BmrPipe } from './pipes/bmr.pipe';
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   exports: [
     SpinnerComponent,
+    RectAngularComponent,
+    CaptainCanvasComponent,
     SortPipe,
-    FilterPipe
+    FilterPipe,
+    AgePipe,
+    BmiPipe,
+    BmrPipe
   ]
 })
 export class MrMr2Module { }
