@@ -8,6 +8,7 @@ export * from './lib/mr-mr2.module';
 export * from './lib/components/captain-canvas/captain-canvas.component';
 export * from './lib/components/rect-angular/rect-angular.component';
 export * from './lib/components/spinner/spinner.component';
+export * from './lib/components/basic-table/basic-table.component';
 
 /* Pipes */
 export * from './lib/pipes/age.pipe';

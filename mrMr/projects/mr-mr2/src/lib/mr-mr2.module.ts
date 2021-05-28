@@ -8,12 +8,14 @@ import { BmiPipe } from './pipes/bmi.pipe';
 import { BmrPipe } from './pipes/bmr.pipe';
 import { RectAngularComponent } from './components/rect-angular/rect-angular.component';
 import { CaptainCanvasComponent } from './components/captain-canvas/captain-canvas.component';
+import { BasicTableComponent } from './components/basic-table/basic-table.component';
 
 @NgModule({
   declarations: [
     SpinnerComponent,
     RectAngularComponent,
     CaptainCanvasComponent,
+    BasicTableComponent,
     SortPipe,
     FilterPipe,
     AgePipe,
@@ -28,6 +30,7 @@ import { CaptainCanvasComponent } from './components/captain-canvas/captain-canv
     SpinnerComponent,
     RectAngularComponent,
     CaptainCanvasComponent,
+    BasicTableComponent,
     SortPipe,
     FilterPipe,
     AgePipe,
