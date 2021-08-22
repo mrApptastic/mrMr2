@@ -1,0 +1,272 @@
+/* Boxes */
+.mrBox {
+  width: calc(100vw - 17px);
+  height : calc(100vh - 17px);
+  overflow-y: auto;
+}
+.mrBox95 {
+  width: 95vw;
+  height: 95vh;
+  overflow-y: auto;
+  position: relative;
+  left: 2.5vw;
+  top: 2.5vh;
+}
+.mrBox90 {
+  width: 90vw;
+  height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  left: 5vw;
+  top: 5vh;
+}
+.mrBox85 {
+  width: 85vw;
+  height: 85vh;
+  overflow-y: auto;
+  position: relative;
+  left: 7.5vw;
+  top: 7.5vh;
+}
+.mrBox80 {
+  width: 80vw;
+  height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  left: 10vw;
+  top: 10vh;
+}
+.mrBox75 {
+  width: 75vw;
+  height: 75vh;
+  overflow-y: auto;
+  position: relative;
+  left: 12.5vw;
+  top: 12.5vh;
+}
+.mrBox70 {
+  width: 70vw;
+  height: 70vh;
+  overflow-y: auto;
+  position: relative;
+  left: 15vw;
+  top: 15vh;
+}
+.mrBox65 {
+  width: 65vw;
+  height: 65vh;
+  overflow-y: auto;
+  position: relative;
+  left: 17.5vw;
+  top: 17.5vh;
+}
+.mrBox60 {
+  width: 60vw;
+  height: 60vh;
+  overflow-y: auto;
+  position: relative;
+  left: 20vw;
+  top: 20vh;
+}
+.mrBox55 {
+  width: 55vw;
+  height: 55vh;
+  overflow-y: auto;
+  position: relative;
+  left: 22.5vw;
+  top: 22.5vh;
+}
+.mrBox50 {
+  width: 50vw;
+  height: 50vh;
+  overflow-y: auto;
+  position: relative;
+  left: 25vw;
+  top: 25vh;
+}
+.mrCon95 {
+  width: 95vw;
+  position: relative;
+  left: 2.5vw;
+}
+.mrCon90 {
+  width: 90vw;
+  position: relative;
+  left: 5vw;
+}
+.mrCon85 {
+  width: 85vw;
+  position: relative;
+  left: 7.5vw;
+}
+.mrCon80 {
+  width: 80vw;
+  position: relative;
+  left: 10vw;
+}
+.mrCon75 {
+  width: 75vw;
+  position: relative;
+  left: 12.5vw;
+}
+.mrCon70 {
+  width: 70vw;
+  position: relative;
+  left: 15vw;
+}
+.mrCon65 {
+  width: 65vw;
+  position: relative;
+  left: 17.5vw;
+}
+.mrCon60 {
+  width: 60vw;
+  position: relative;
+  left: 20vw;
+}
+.mrCon55 {
+  width: 55vw;
+  position: relative;
+  left: 22.5vw;
+}
+.mrCon50 {
+  width: 50vw;
+  position: relative;
+  left: 25vw;
+}
+.mr1 {
+  width: 99.99999%;
+  float:left;
+  padding:0;
+  margin:0;
+  transition: .5s;
+}
+.mr2 {
+  width: 49.99999%;
+  float:left;
+  padding:0;
+  margin:0;
+  transition: .5s;
+}
+.mr3 {
+  width: 33.33333%;
+  float:left;
+  padding:0;
+  margin:0;
+  transition: .5s;
+}
+.mr4 {
+  width: 24.99999%;
+  float:left;
+  padding:0;
+  margin:0;
+  transition: .5s;
+}
+.mr5 {
+  width: 19.99999%;
+  float:left;
+  padding:0;
+  margin:0;
+  transition: .5s;
+}
+.mr6 {
+  width: 16.66666%;
+  float:left;
+  padding:0;
+  margin:0;
+  transition: .5s;
+}
+.mr10 {
+  width: 9.99999%;
+  float:left;
+  padding:0;
+  margin:0;
+  transition: .5s;
+}
+.mr20 {
+  width: 4.99999%;
+  float:left;
+  padding:0;
+  margin:0;
+  transition: .5s;
+}
+.mrR {
+  overflow:hidden
+}
+.mrMinH50 {
+  min-height: 50vh;
+  overflow-y: auto;
+}
+@media screen and (max-width: 960px) {
+  .mr1 {
+      width: 99.99999%;
+ }
+  .mr2 {
+      width: 99.99999%;
+ }
+  .mr3 {
+      width: 66.66666%;
+ }
+  .mr4 {
+      width: 49.99999%;
+ }
+  .mr5 {
+      width: 39.99999%;
+ }
+  .mr6 {
+      width: 33.33333%;
+ }
+  .mr10 {
+      width: 19.99999%;
+ }
+  .mr20 {
+      width: 9.99999%;
+ }
+  .mrCon50,.mrCon55,.mrCon60,.mrCon65,.mrCon70,.mrCon75,.mrCon80,.mrCon85,.mrCon90,.mrCon95 {
+      width: calc(100vw - 17px);
+      position: static;
+      left: 0;
+ }
+}
+@media screen and (max-width: 485px) {
+  .mr1 {
+      width: 99.99999%;
+ }
+  .mr2 {
+      width: 99.99999%;
+ }
+  .mr3 {
+      width: 99.99999%;
+ }
+  .mr4 {
+      width: 99.99999%;
+ }
+  .mr5 {
+      width: 99.99999%;
+ }
+  .mr6 {
+      width: 99.99999%;
+ }
+  .mr10 {
+      width: 99.99999%;
+ }
+  .mr20 {
+      width: 99.99999%;
+ }
+}
+.mrCreamy {
+  box-shadow: 2px 2px 1px grey, 4px 4px 2px snow, 6px 6px 3px lavender, -3px -3px 5px lavenderblush, -3px 3px 2px navajowhite, 3px -3px 2px mintcream, inset 3px 3px 0 grey, inset -3px -3px 0 grey;
+}
+.mrEnamel {
+  border-radius: 25px;
+  box-shadow: 1px 1px 2px black, -1px -1px 2px black, 5px 5px 3px grey, inset -3px -3px 3px grey, inset 3px -3px 3px grey;
+}
+.mrShadow {
+  box-shadow: 5px 5px 10px grey;
+}
+.mrYellowBelly {
+  box-shadow: 2px 2px 3px black, Inset 2px 2px 51px yellow;
+}
+.mrTest {
+  box-shadow: 0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
+}

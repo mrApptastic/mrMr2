@@ -1,0 +1,33 @@
+<div *ngIf="dataSource" class="containerBandit">
+    <div>
+        <input type="text" class="filterBandit" placeholder="Filter data" [(ngModel)]="searchField" (ngModelChange)="handleSearch()" />
+    </div>
+    <table class="tableBandit">
+        <thead>
+            <tr>
+                <th *ngFor="let col of columns" [ngStyle]="{'width': col.width, 'text-align': col.Position}" (click)="col.Name === sortOrder ? sortDirection = !sortDirection : sortOrder = col.Name">
+                    {{col.Name}}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let row of dataSource | filter: searchFilter | sort : sortOrder : sortDirection" [ngClass]="!editAll ? 'navRow' : ''" (click)="onRowClick(row)">
+                <td *ngFor="let col of columns" [ngStyle]="{'width': col.Width, 'text-align': col.Position}">
+                    <ng-container *ngIf="row.hasOwnProperty(col.Name)">
+                        <span *ngIf="!col.Input" [innerHtml]="readyForActionFilter(row, col.Name)"></span>
+                        <ng-container *ngIf="col.Input">
+                            <input class="mrEnamel" *ngIf="col.Input === 'text'" type="text" [(ngModel)]="row[col.Name]" (change)="onDataChange(row)" />
+                            <input class="mrEnamel" *ngIf="col.Input === 'number'" type="text" [(ngModel)]="row[col.Name]" step="any" (change)="onDataChange(row)" />
+                            <input class="mrEnamel" *ngIf="col.Input === 'checkbox'" type="checkbox" [(ngModel)]="row[col.Name]" [ngModelOptions]="{standalone: true}" (change)="onDataChange(row)" />
+                        </ng-container>
+                    </ng-container>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<span *ngIf="!dataSource && spinner" class="spinnerBox">
+  <div>
+    <mr-spinner [image]="spinner" [text]="spinnerText"></mr-spinner>
+  </div>
+</span>
