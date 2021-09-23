@@ -8,7 +8,7 @@
     "build-mrmr2": "ng build --prod && gulp build && npm run copyAssets",
     "build-mrmr": "ng build --prod && npm run copyAssets",
     "copyAssets": "md \"dist/mr-mr2/assets\" && xcopy \"projects/mr-mr2/src/assets\" \"dist/mr-mr2/assets\"",
-    "publish-mrmr": "npm install && npm run build-mrmr && cd projects && cd mr-mr2 && npm publish && cd.. && cd..",
+    "publish-mrmr": "npm install && npm run build-mrmr && cd projects && cd mr-mr2 && npm publish && cd ../..",
     "test": "ng test",
     "lint": "ng lint"
   },
