@@ -33,18 +33,14 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@angular-eslint/builder:lint",
           "options": {
-            "tsConfig": [
-              "projects/mr-mr2/tsconfig.lib.json",
-              "projects/mr-mr2/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
+            "lintFilePatterns": [
+              "projects/mr-mr2/**/*.ts",
+              "projects/mr-mr2/**/*.html"
             ]
           }
         }
       }
-    }},
-  "defaultProject": "mrMr2"
+    }}
 }

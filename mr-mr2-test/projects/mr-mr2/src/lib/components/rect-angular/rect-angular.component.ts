@@ -3,6 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 declare function rectAngular(elem, width, height, heading, colour, font): void;
 
 @Component({
+  standalone: false,
   selector: 'mr-rect-angular',
   templateUrl: './rect-angular.component.html',
   styleUrls: ['./rect-angular.component.scss']

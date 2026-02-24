@@ -5,7 +5,8 @@ declare function rectAngular(elem, width, height, heading, colour, font): void;
 @Component({
   selector: 'mr-rect-angular',
   templateUrl: './rect-angular.component.html',
-  styleUrls: ['./rect-angular.component.scss']
+  styleUrls: ['./rect-angular.component.scss'],
+  standalone: false
 })
 export class RectAngularComponent implements OnInit {
   @Input() canvas?: string;

@@ -7,7 +7,8 @@ import { DatePipe, DecimalPipe } from '@angular/common';
   selector: 'mr-basic-table',
   templateUrl: './basic-table.component.html',
   styleUrls: ['./basic-table.component.scss'],
-  providers: [DatePipe, DecimalPipe]
+  providers: [DatePipe, DecimalPipe],
+  standalone: false
 })
 export class BasicTableComponent implements OnInit, OnChanges {
   @Input() dataSource: any[];
@@ -47,7 +48,7 @@ export class BasicTableComponent implements OnInit, OnChanges {
   }
 
   handleSearch(): void {
-    this.searchRequest.next();
+    this.searchRequest.next(this.searchField);
   }
 
   loadData() {

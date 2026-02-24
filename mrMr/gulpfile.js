@@ -6,7 +6,7 @@ const gulp = require("gulp");
 const header = require("gulp-header");
 const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require("sass"));
 
 // Load package.json for banner
 const pkg = require('./package.json');

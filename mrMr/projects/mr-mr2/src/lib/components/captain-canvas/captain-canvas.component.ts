@@ -7,7 +7,8 @@ declare function mrToolBox(id, settings): void;
 @Component({
   selector: 'mr-captain-canvas',
   templateUrl: './captain-canvas.component.html',
-  styleUrls: ['./captain-canvas.component.scss']
+  styleUrls: ['./captain-canvas.component.scss'],
+  standalone: false
 })
 export class CaptainCanvasComponent implements OnInit {
   @Input() canvas?: string;
