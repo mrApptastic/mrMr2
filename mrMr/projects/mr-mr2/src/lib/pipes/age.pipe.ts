@@ -2,7 +2,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { CalcService } from '../services/calc.service';
 
 @Pipe({
-  name: 'age'
+  name: 'age',
+  standalone: false
 })
 export class AgePipe implements PipeTransform {
 

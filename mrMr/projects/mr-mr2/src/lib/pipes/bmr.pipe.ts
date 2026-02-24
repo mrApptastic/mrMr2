@@ -2,7 +2,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { CalcService } from '../services/calc.service';
 
 @Pipe({
-  name: 'bmr'
+  name: 'bmr',
+  standalone: false
 })
 export class BmrPipe implements PipeTransform {
 
