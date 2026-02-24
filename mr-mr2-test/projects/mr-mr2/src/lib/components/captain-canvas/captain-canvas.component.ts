@@ -5,6 +5,7 @@ declare function captainCanvas(canvas, tools, settings): void;
 declare function mrToolBox(id, settings): void;
 
 @Component({
+  standalone: false,
   selector: 'mr-captain-canvas',
   templateUrl: './captain-canvas.component.html',
   styleUrls: ['./captain-canvas.component.scss']

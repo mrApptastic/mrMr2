@@ -4,6 +4,7 @@ import { debounceTime } from 'rxjs/operators';
 import { DatePipe, DecimalPipe } from '@angular/common';
 
 @Component({
+  standalone: false,
   selector: 'mr-basic-table',
   templateUrl: './basic-table.component.html',
   styleUrls: ['./basic-table.component.scss'],
@@ -47,7 +48,7 @@ export class BasicTableComponent implements OnInit, OnChanges {
   }
 
   handleSearch(): void {
-    this.searchRequest.next();
+    this.searchRequest.next(this.searchField);
   }
 
   loadData() {
